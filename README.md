@@ -25,3 +25,7 @@ app.use(express.static(__dirname + '/public'));
 4. Type 'npm start' on the terminal to serves these files 
   * Office 365 SharePoint .ASPX page will reference files inside CrisisResponse/contentGeneration/public
 5. Click on the Shield icon in the Google Chrome address bar to disable security
+
+#Bug
+Cloud related: although wizard still runs to full completion.The API must have changed between versions, and you have to complete that step manually via browser.   The code tries to change the "Alternate CSS Url" property on the subsite, at
+https://github.com/chanm003/CrisisResponse/search?q=changesitemasterpage&unscoped_q=changesitemasterpage
